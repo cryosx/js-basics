@@ -22,6 +22,36 @@ console.log(pet);  // <= this should print out sebastian the pug
 * Assign your own string values to each variable and console.log each variable.
 */
 
+var firstName = "cyrus";
+console.log(firstName);
+
+var lastName = "wu";
+console.log(lastName);
+
+var birthPlace = "kauai";
+console.log(birthPlace);
+
+var favFood = "guava";
+console.log(favFood);
+
+var favDrink = "milk";
+console.log(favDrink);
+
+var favSong = "dunno";
+console.log(favSong);
+
+var favAnimal= "cat";
+console.log(favAnimal);
+
+var favColor= "black";
+console.log(favColor);
+
+var favSport= "basketball";
+console.log(favSport);
+
+var favDoughnut= "sugarglaze";
+console.log(favDoughnut);
+
 
 /*
 * #2
@@ -31,6 +61,27 @@ console.log(pet);  // <= this should print out sebastian the pug
 *
 * Assign your own number values to each variable and console.log each variable.
 */
+
+var favNumber = 7;
+console.log(favNumber);
+
+var yourShoeSize = 10;
+console.log(yourShoeSize);
+
+var thatOnePrinceSong = 1;
+console.log(thatOnePrinceSong);
+
+var floorsAlaMoanaHotel = 10;
+console.log(floorsAlaMoanaHotel);
+
+var numOfJapanPrefectures = 23;
+console.log(numOfJapanPrefectures);
+
+var numOfABCstoresinHi = 1;
+console.log(numOfABCstoresinHi);
+
+var cheesecakesFlavAtCheeseCakeFac = 2;
+console.log(cheesecakesFlavAtCheeseCakeFac);
 
 
 /*
@@ -48,25 +99,40 @@ console.log(pet);  // <= this should print out sebastian the pug
 *
 */
 
+var likesMcDonalds = false;
+console.log(likesMcDonalds);
+
+var eatsDoughnuts = true;
+console.log(eatsDoughnuts);
+
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
+
+
 //For example:
 //Make me True:
 var booya1 = 3 > 2; 
 console.log(booya1);
 
 //Make me False:
-var booya2;
+var booya2 = 3 < 2;
+console.log(booya2);
 
 //Make me True:
-var booya3;
+var booya3 = 2 >= 2;
+console.log(booya3);
 
 //Make me False:
-var booya4;
+var booya4 = 2 <= 1;
+console.log(booya4);
 
 //Make me True:
-var booya5; 
+var booya5 = 5 === 5; 
+console.log(booya5);
 
 //Make me False:
-var booya6;
+var booya6 = 5 !== 5;
+console.log(booya6);
 
 
 /*
@@ -78,6 +144,14 @@ var booya6;
 * Assign a null value to each variable and console.log each variable. 
 */
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+
+var traveledToMars = null;
+console.log(traveledToMars);
+
+var buyVicADrink = null;
+console.log(buyVicADrink);
 
 /*
 * #5
@@ -88,6 +162,14 @@ var booya6;
 * Do not assign a value to the variable and console.log each variable.
 */
 
+var superBowlChamps;
+console.log(superBowlChamps);
+
+var nextPres;
+console.log(nextPres);
+
+var hawaiiRail;
+console.log(hawaiiRail);
 
 /*
 * #6
@@ -103,6 +185,23 @@ var booya6;
 * Console.log each variable.
 */
 
+var plateLunch = ["steak","mac salad","chicken","kalbi","kimchi"];
+console.log(plateLunch);
+
+var donutBox = ["chocolate","sugar glaze","jelly","cinnamon","mango"];
+console.log(donutBox);
+
+var westCoast = ["washington","oregon","california","washington","oregon"];
+console.log(westCoast);
+
+var lotteryResult = [12345,54321,10293,39503,29503];
+console.log(lotteryResult);
+
+var hamajang = [1, [1,2], "test", null, undefined, true];
+console.log(hamajang);
+
+var dynamicDuos = [[1,2],[1,2],[1,2]];
+console.log(dynamicDuos);
 
 /*7
 * Accessing values in Arrays
@@ -113,6 +212,13 @@ Console.log the length of this array.
 Console.log only "carrot cake" from this array.
 Console.log only "cool ranch doritos" from this array
 */
+
+var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
+console.log(partyList);
+console.log(partyList.length);
+console.log(partyList[0]);
+console.log(partyList[4]);
+
 
 
 /*
@@ -127,7 +233,9 @@ Console.log only "cool ranch doritos" from this array
 * i.e "Hi my name is Bruce Wayne and I was born in Gotham."
 */
 
-
+var fullName = firstName + " " + lastName;
+console.log(fullName);
+console.log("Hi my name is " +  fullName + " and I was born in " + birthPlace + ".");
 /*
 * #9 
 * Arithmetic
@@ -144,6 +252,27 @@ Console.log only "cool ranch doritos" from this array
 * Console.log each new variable.
 */
 
+var num1 = 1;
+console.log(num1);
+
+var num2 = 2;
+console.log(num2);
+
+var sum = num1 + num2;
+console.log(sum);
+
+var difference = num1 - num2;
+console.log(difference);
+
+var product = num1 * num2;
+console.log(product);
+
+var quotient = num1/num2;
+console.log(quotient);
+
+var leftOver = num1%num2;
+console.log(leftOver);
+
 
 /*
 * #10
@@ -158,6 +287,17 @@ Console.log only "cool ranch doritos" from this array
 * Console.log the variables. Do you see the difference between strict equality vs. equality?
 */
 
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log(isStrictlyEqual);
+
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log(isStrictlyEqual);
+
+var sameNum = "5" === 5;
+console.log(sameNum);
+
+var sameNumba = "5" == 5;
+console.log(sameNumba);
 
 /* 
 * #11
@@ -166,16 +306,20 @@ Console.log only "cool ranch doritos" from this array
 */
 
 //Use && to make me True
-var booya7;
+var booya7 = 5 > 4 && 3 < 4;
+console.log(booya7);
 
 //Use && to make me False
-var booya8;
+var booya8 = 4 >= 4 && 3 <= 1;
+console.log(booya8);
 
 //Use || to make me True
-var booya9;
+var booya9 = 4 === 4 || 4 !== 4;
+console.log(booya9);
 
 //Use || to make me False
-var booya10;
+var booya10 = 3 > 5 || 1 > 2;
+console.log(booya10);
 
 //Console.log each variable
 
